@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Noroff FED2 JS2 CA</title>
+    <!--<script type="module" src="/src/app.js"></script>-->
+    <script type="module" src="/edit.js"></script>
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+  </head>
+
+  <body>
+    <a href="index.html"><img src="/images/noroff-logo.png" alt="Noroff Logo" /></a>
+    <h1>Edit post</h1>
+    <form id="create" name="create">
+      <div>
+        <label for="title">Title</label>
+        <input id="title" type="text" name="title" required />
+      </div>
+
+      <div>
+        <label for="body">Body</label>
+        <input type="text" name="body" id="body" required />
+      </div>
+
+      <div>
+        <label for="mediaURL">Media URL</label>
+        <input type="text" name="mediaURL" id="mediaURL" required />
+      </div>
+
+      <div>
+        <label for="mediaALT">Media ALT</label>
+        <input type="text" name="mediaALT" id="mediaALT" required />
+      </div>
+
+
+
+
+    </form>
+    <button id="editPostButton">Edit</button>
+    <div id="statusArea">
+        <span id="postStatus"></span>
+        <span id="titleError"></span>
+        <span id="bodyError"></span>
+        <span id="mediaUrlError"></span>
+        <span id="mediaAltError"></span>
+        </div>
+    <div id="out"></div>
+  </body>
+</html>
