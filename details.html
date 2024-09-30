@@ -7,20 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Noroff FED2 JS2 CA</title>
   <!--<script type="module" src="/src/app.js"></script>-->
-  <script type="module" src="script.js"></script>
+  <script type="module" src="details.js"></script>
   <link type="text/css" rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
   <a href="index.html"><img src="/images/noroff-logo.png" alt="Noroff Logo" /></a>
-
-  <h1>Home</h1>
-
-  <a href="/profile/">My Profile</a>
   <a id="loginLink" href="/auth/login/">Login</a>
-  <a href="/auth/register/">Register</a>
-  <a id="createLink" href="create.html">New Post</a>
   <button id="logout">Logout</button>
-  <div id="output"></div>
+  <div id="detailedPost"></div>
+  <button id="editPostButton">Edit Post</button>
+  <button id="maybeDelete">Delete</button>
+  <span id="postStatus"></span>
 </body>
 </html>

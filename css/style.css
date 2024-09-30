@@ -1,0 +1,48 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#postImage {
+    height: 200px;
+}
+
+#detailedPost img {
+    height: 500px;
+}
+
+#output {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+#postElement {
+    background-color:rgb(45, 37, 74);
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 450px;
+    transition: 150ms;
+    overflow:hidden;
+}
+
+#postElement:hover {
+    transform:scale(1.05);
+}
+
+#statusArea {
+    display: flex;
+    flex-direction: column;
+}
